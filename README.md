@@ -13,7 +13,18 @@ Note: need clean package every time, otherwise removed benchmarks will be hangin
 
 Run:
 ```
-java -jar target/benchmarks.jar
+java -jar target/benchmarks.jar DecompressBenchmark
+...
+Benchmark                             Mode  Cnt   Score   Error  Units
+DecompressBenchmark.testLargeBrotli   avgt   30  14.688 ± 0.070  ms/op
+DecompressBenchmark.testLargeGzip     avgt   30  12.830 ± 0.074  ms/op
+DecompressBenchmark.testLargePlain    avgt   30   8.456 ± 0.057  ms/op
+DecompressBenchmark.testMediumBrotli  avgt   30   4.718 ± 0.023  ms/op
+DecompressBenchmark.testMediumGzip    avgt   30   3.836 ± 0.020  ms/op
+DecompressBenchmark.testMediumPlain   avgt   30   2.495 ± 0.061  ms/op
+DecompressBenchmark.testSmallBrotli   avgt   30   0.385 ± 0.004  ms/op
+DecompressBenchmark.testSmallGzip     avgt   30   0.239 ± 0.002  ms/op
+DecompressBenchmark.testSmallPlain    avgt   30   0.113 ± 0.002  ms/op
 ```
 
 Also see commands.txt for more pre-configured commands.
