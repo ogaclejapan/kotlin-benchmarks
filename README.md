@@ -28,3 +28,17 @@ DecompressBenchmark.testSmallPlain    avgt   30   0.113 ± 0.002  ms/op
 ```
 
 Also see commands.txt for more pre-configured commands.
+
+Data:
+```
+ls -hl data
+4.9M sample_repos_large.json
+190K sample_repos_large.json.br
+314K sample_repos_large.json.gz
+1.6M sample_repos_medium.json
+ 65K sample_repos_medium.json.br
+105K sample_repos_medium.json.gz
+146K sample_repos_small.json
+7.9K sample_repos_small.json.br
+ 11K sample_repos_small.json.gz
+```
